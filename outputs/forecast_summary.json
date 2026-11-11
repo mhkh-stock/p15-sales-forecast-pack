@@ -1,0 +1,148 @@
+{
+  "shop": "Noor Electronics, Lahore (SAMPLE)",
+  "period": "Jan 2024 \u2013 Oct 2025",
+  "snapshot_date": "2025-10-31",
+  "forecast_period": "Nov 2025 \u2013 Apr 2026 (6 months)",
+  "method": "Classical decomposition: OLS trend on deseasonalised sales + calendar-month seasonal index (stdlib only)",
+  "history_months": 22,
+  "history_total_pkr": 68170300,
+  "avg_monthly_pkr": 3098650,
+  "best_month": "Jun 2025",
+  "best_month_sales_pkr": 3879400,
+  "worst_month": "Jan 2024",
+  "worst_month_sales_pkr": 2226100,
+  "last_3m_avg_pkr": 3398200,
+  "last_6m_total_pkr": 20669900,
+  "total_orders": 4747,
+  "total_units": 5127,
+  "trend_intercept_pkr": 2695990.4328068513,
+  "trend_slope_pkr_per_month": 38078.68893903007,
+  "seasonal_indices": {
+    "Jan": 0.8019693241955542,
+    "Feb": 0.8751487222003886,
+    "Mar": 1.121271177772155,
+    "Apr": 1.0888564675987487,
+    "May": 0.9475205788456466,
+    "Jun": 1.141104393563357,
+    "Jul": 1.0308426963267636,
+    "Aug": 0.9549984118353261,
+    "Sep": 1.0051628810922266,
+    "Oct": 1.0532600444686109,
+    "Nov": 1.0803611324960027,
+    "Dec": 0.89950416960522
+  },
+  "forecast": [
+    {
+      "month": "Nov 2025",
+      "year": 2025,
+      "month_no": 11,
+      "t": 22,
+      "seasonal_index": 1.0804,
+      "trend_pkr": 3533722,
+      "forecast_pkr": 3817695,
+      "share_pct": 17.9
+    },
+    {
+      "month": "Dec 2025",
+      "year": 2025,
+      "month_no": 12,
+      "t": 23,
+      "seasonal_index": 0.8995,
+      "trend_pkr": 3571800,
+      "forecast_pkr": 3212849,
+      "share_pct": 15.1
+    },
+    {
+      "month": "Jan 2026",
+      "year": 2026,
+      "month_no": 1,
+      "t": 24,
+      "seasonal_index": 0.802,
+      "trend_pkr": 3609879,
+      "forecast_pkr": 2895012,
+      "share_pct": 13.6
+    },
+    {
+      "month": "Feb 2026",
+      "year": 2026,
+      "month_no": 2,
+      "t": 25,
+      "seasonal_index": 0.8751,
+      "trend_pkr": 3647958,
+      "forecast_pkr": 3192505,
+      "share_pct": 15.0
+    },
+    {
+      "month": "Mar 2026",
+      "year": 2026,
+      "month_no": 3,
+      "t": 26,
+      "seasonal_index": 1.1213,
+      "trend_pkr": 3686036,
+      "forecast_pkr": 4133046,
+      "share_pct": 19.4
+    },
+    {
+      "month": "Apr 2026",
+      "year": 2026,
+      "month_no": 4,
+      "t": 27,
+      "seasonal_index": 1.0889,
+      "trend_pkr": 3724115,
+      "forecast_pkr": 4055027,
+      "share_pct": 19.0
+    }
+  ],
+  "forecast_total_pkr": 21306134,
+  "forecast_avg_pkr": 3551022,
+  "forecast_growth_vs_last6_pct": 3.1,
+  "backtest": {
+    "train_months": 19,
+    "months": [
+      {
+        "month": "Aug 2025",
+        "t": 19,
+        "month_no": 8,
+        "actual_pkr": 3238900,
+        "forecast_pkr": 3028665,
+        "error_pkr": -210235,
+        "ape_pct": 6.49
+      },
+      {
+        "month": "Sep 2025",
+        "t": 20,
+        "month_no": 9,
+        "actual_pkr": 3347000,
+        "forecast_pkr": 3296157,
+        "error_pkr": -50843,
+        "ape_pct": 1.52
+      },
+      {
+        "month": "Oct 2025",
+        "t": 21,
+        "month_no": 10,
+        "actual_pkr": 3608700,
+        "forecast_pkr": 3376142,
+        "error_pkr": -232558,
+        "ape_pct": 6.44
+      }
+    ],
+    "mape_pct": 4.82,
+    "trend_intercept_pkr": 2662857.7219017367,
+    "trend_slope_pkr_per_month": 40091.734603510755,
+    "seasonal_indices": {
+      "Jan": 0.8211011955617045,
+      "Feb": 0.8960263696044007,
+      "Mar": 1.14802035045557,
+      "Apr": 1.114832351271352,
+      "May": 0.9701247374890447,
+      "Jun": 1.1683267096973338,
+      "Jul": 1.0554345968768775,
+      "Aug": 0.8843849388990249,
+      "Sep": 0.9513562377012584,
+      "Oct": 0.963295318623533,
+      "Nov": 1.1061343504886425,
+      "Dec": 0.9209628433312571
+    }
+  }
+}
